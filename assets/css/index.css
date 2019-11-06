@@ -7,7 +7,7 @@ body{
 section,form{
     background:white;
     width:960px;
-    height:600px;
+    height:800px;
     margin: 120px 200px;
 }
 
@@ -69,7 +69,7 @@ p{
 
 .text{
     font-size: 19;
-    line-height:1.2;
+    line-height:1.5;
     max-width: 880px;
     margin: 20px 0px 5px 30px;
     color: gray;
@@ -103,6 +103,34 @@ button{
 input::placeholder{
     font-size: 14;
     color:lightgray;
+}
+
+#portfolio-section{
+    width:600px;
+    height:600px;
+    margin: 20px 20px;
+
+}
+
+.image{
+    border:1px solid lightgray;
+    float:left;
+    height:190px;
+    width:240;
+    margin:10px 15px;
+    background-size:cover !important;
+    background-position: center !important;
+
+}
+
+.inner-box{
+    margin:135px 0px;
+    background: #4aaaa5;
+    height:50px;
+    color:white;
+    text-align: center;
+    line-height: 2;
+
 }
 
 
